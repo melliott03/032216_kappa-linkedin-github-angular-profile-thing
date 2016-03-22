@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app='myApp'>
+  <head>
+    <meta charset="utf-8">
+    <title>Kappa Life!</title>
+
+<!-- SCRIPTS -->
+<script type="text/javascript" src="/vendors/angular.min.js">
+</script>
+
+<script type="text/javascript" src="/assets/scripts/client.js">
+</script>
+
+<!--scripts-->
+<link rel="stylesheet" href="./assets/styles/style.css" />
+
+  </head>
+  <body ng-controller='MainController'>
+<p>{{ test }}</p>
+
+<div ng-repeat="kappen in kappenArray">
+<div>
+  <img class="photos" ng-src="{{ kappen.linkedIn }}" />
+
+  <p>
+    {{ kappen.name }}
+  </p>
+  <p>
+    {{ kappen.github }}
+  </p>
+  </div>
+</div>
+
+
+
+  </body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "032216_kappa-linkedin-github-angular-profile-thing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "author": "Mark Rothermal and Mike Elliott",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.2",
+    "express": "^4.13.4"
+  }
+}
